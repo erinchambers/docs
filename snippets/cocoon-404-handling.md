@@ -1,4 +1,16 @@
-# 404.html
+# Steps
+1. Create or edit `404.html` in site root
+2. If no 404, or 404 not in template:
+  a. Open a non-custom page on the production site and copy Page Source
+  b. Paste Page Source into 404.html
+3. Replace body text with code below
+4. Edit `sitemap.xmap` and add code below
+5. Commit to repo
+6. Zip server folder and save to computer
+
+# Code Snippets
+
+## 404.html
 
 ```
 <h1>404 - Page not found</h1>
@@ -7,7 +19,7 @@
 </p>
   ```
 
-# sitemap.xmap
+## sitemap.xmap
 
 ```
 <map:handle-errors>
@@ -15,5 +27,7 @@
   <map:serialize  type="html" status-code="404"/>
 </map:handle-errors>  
 ```
+
+## Troubleshooting
 
 [Cocoon ErrorHandling documentation](https://cwiki.apache.org/confluence/display/cocoon/ErrorHandling)
