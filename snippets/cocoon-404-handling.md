@@ -3,7 +3,7 @@
 ```
 <h1>404 - Page not found</h1>
 <p>
-  The requested page could not be found. The site framework has been updated as the site has moved out of an active update stage. Some links and URL structures may have changed. Please see the CDRH project stages page [TODO: link] for details.
+  The requested page could not be found. The site framework has been updated as the site has moved out of an active update stage. Some links and URL structures may have changed. Please see the CDRH project stages page for details.
 </p>
   ```
 
