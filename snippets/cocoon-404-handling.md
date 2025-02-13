@@ -1,8 +1,6 @@
 # Steps
 1. Create or edit `404.html` in site root
-2. If no 404, or 404 not in template:
-  a. Open a non-custom page on the production site and copy Page Source
-  b. Paste Page Source into 404.html
+2. If no 404, or 404 not in template, (1) Open a non-custom page on the production site, (2) View Page Source and copy all, (3) Paste into `404.html`
 3. Replace body text with code below
 4. Edit `sitemap.xmap` and add code below
 5. Commit to repo
