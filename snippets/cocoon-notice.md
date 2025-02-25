@@ -49,9 +49,11 @@
   padding: 0;
 }
 ```
+## Custom colors for `.green-banner`
 
-### From cocoon_radcialscatters:
+Peattie:
 
 ``` css
-
+  background-color: #cce5f2; /* #bbdfbb; */
+  border: 2px solid #226e95; /* #466f46; */
 ```
