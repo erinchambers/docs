@@ -54,6 +54,6 @@
 Peattie:
 
 ``` css
-  background-color: #cce5f2; /* #bbdfbb; */
-  border: 2px solid #226e95; /* #466f46; */
+  background-color: #cce5f2;
+  border: 2px solid #226e95;
 ```
