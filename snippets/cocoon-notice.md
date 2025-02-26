@@ -8,33 +8,35 @@
 ## HTML
 
 ``` html
-<div class="green-banner-wrapper">
-  <div class="green-banner">
+<div class="static-banner-wrapper">
+  <div class="static-banner">
     <p>This is a simplified version of the website with no active updates. See the <a href="#">Site Information Page</a> for contact information, data downloads, and other details. </p>
   </div>
 </div>
 ```
 
 ## Basic CSS
+
 ``` css
-.green-banner-wrapper {
-  padding: 10px;
+.static-banner-wrapper {
+  background-color: #cce5f2;
+  border-bottom: 1px solid #226e95;
 }
 
-.green-banner {
-  background-color: #bbdfbb;
-  border: 2px solid #466f46;
-  border-radius: 3px;
+.static-banner {
+  margin: auto;
+  max-width: 100%; /* Change this to the width of the page content */
   padding: 15px 20px;
+  text-align: left;
 }
 
-.green-banner p {
-  font-size: 16px;
+.static-banner p {
+  font-size: 14px; /* Change to fit site */
   margin: 0;
 }
 
-.green-banner p a,
-.green-banner p a:visited {
+.static-banner p a,
+.static-banner p a:visited {
   color: #0000EE;
   background: none;
   margin: 0;
@@ -42,18 +44,52 @@
   text-decoration: underline;
 }
 
-.green-banner p a:hover {
+.static-banner p a:hover {
   background: none;
   color: #010194;
   margin: 0;
   padding: 0;
 }
 ```
-## Custom colors for `.green-banner`
 
-Peattie:
-
+### Old CSS
 ``` css
-  background-color: #cce5f2;
-  border: 2px solid #226e95;
+.static-banner-wrapper {
+  padding: 10px;
+}
+
+.static-banner {
+  background-color: #bbdfbb;
+  border: 2px solid #466f46;
+  border-radius: 3px;
+  padding: 15px 20px;
+}
+
+.static-banner p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.static-banner p a,
+.static-banner p a:visited {
+  color: #0000EE;
+  background: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.static-banner p a:hover {
+  background: none;
+  color: #010194;
+  margin: 0;
+  padding: 0;
+}
+```
+## Custom colors for `.static-banner`
+
+### Green: 
+``` css
+  background-color: #bbdfbb;
+  border: 2px solid #466f46;
 ```
