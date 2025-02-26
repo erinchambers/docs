@@ -2,7 +2,7 @@
 - CSS styles will need to be adjusted for each site
 - Styles on landmark elements (especially `<header>`) may need to be moved to (new) div wrappers within the landmarks
 - HTML is standardized for eas(ier) search-and-replace later, if needed, though we only expect to search-and-replace the text and link
-- The prefix `green-*` is used on CSS classes to keep these distinct from any other `banner-*` classes a site might have
+- The prefix `static-*` is used on CSS classes to keep these distinct from any other `banner-*` classes a site might have
 
 
 ## HTML
