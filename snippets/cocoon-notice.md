@@ -10,7 +10,7 @@
 ``` html
 <div class="static-banner-wrapper">
   <div class="static-banner">
-    <p>This is a simplified version of the website with no active updates. See the <a href="#">Site Information Page</a> for contact information, data downloads, and other details. </p>
+    <p>This version of the website was created in 2025. See the <a href="#">Site Information Page</a> for contact information, data downloads, and other details.</p>
   </div>
 </div>
 ```
